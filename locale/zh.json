@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "API 消耗确认",
+    "description": "在会消耗 API 额度的工具运行前先征求你的同意。批准一次即可覆盖本轮剩余调用。",
+    "detail": "docs/DETAIL.md"
+  }
+}

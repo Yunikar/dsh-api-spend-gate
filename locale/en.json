@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "API spend gate",
+    "description": "Asks for your approval before tools that consume API balance run. One approval covers the rest of the current turn.",
+    "detail": "docs/DETAIL.md"
+  }
+}

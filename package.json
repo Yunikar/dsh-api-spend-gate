@@ -1,0 +1,16 @@
+{
+  "name": "@local/dsh-api-spend-gate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Ask for approval before API-consuming tools run; one approval covers the rest of the turn.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "docs", "icon.svg"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}

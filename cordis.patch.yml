@@ -1,0 +1,8 @@
+- insert:
+    - id: api-spend-gate
+      name: '@local/dsh-api-spend-gate'
+      config:
+        tools:
+          - subagent
+          - subagent_fork
+          - workflow
